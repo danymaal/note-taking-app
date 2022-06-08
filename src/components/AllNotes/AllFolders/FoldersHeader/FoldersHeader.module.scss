@@ -1,0 +1,28 @@
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #FFFFFF;
+  border-radius: 10px;
+  width: 200px;
+  margin: 13px auto;
+  padding: 4px 0;
+
+  button {
+    background: none;
+    border: none;
+    height: 40px;
+    font-size: 22px;
+    padding: 5px 10px;
+
+    &:hover {
+      background: #f0f0f0;
+      border-radius: 10px;
+    }
+  }
+
+  h2 {
+    font-size: 22px;
+    margin: 0;
+  }
+}

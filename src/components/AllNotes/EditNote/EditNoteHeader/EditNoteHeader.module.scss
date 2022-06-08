@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  width: 110vh;
+
+  img {
+    width: 28px;
+  }
+
+  button {
+    background: #FFFFFF;
+    border: none;
+    padding: 10px;
+
+    &:hover {
+      background: #dddfe1;
+      border-radius: 10px;
+      transition: 0.3s ease-out;
+    }
+  }
+
+  margin: 9px 0;
+  border-bottom: 1px solid #f4f4f4;
+
+}

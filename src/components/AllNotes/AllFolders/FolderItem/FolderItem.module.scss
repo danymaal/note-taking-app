@@ -1,0 +1,25 @@
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  background: #F3EFE0;
+  width: 180px;
+  border-radius: 10px;
+  margin: 0 auto;
+
+  h2 {
+    font-size: 18px;
+  }
+
+  button {
+    background: none;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 7px;
+
+    &:hover {
+      background: #FFFFFF;
+    }
+  }
+}

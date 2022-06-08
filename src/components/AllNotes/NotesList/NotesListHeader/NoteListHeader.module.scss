@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 150px;
+
+  button {
+
+    background: #FFFFFF;
+    border: none;
+    padding: 8px;
+
+    &:hover {
+      background: rgba(220, 220, 220, 255);
+      border-radius: 10px;
+      transition: 0.3s ease-out;
+    }
+  }
+
+  border-bottom: 1px solid #f4f4f4;
+
+}
