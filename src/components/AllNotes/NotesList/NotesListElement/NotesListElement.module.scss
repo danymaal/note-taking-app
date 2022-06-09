@@ -1,0 +1,25 @@
+
+.container {
+  background: #ececec;
+  margin: 12px 0;
+
+  height: 60px;
+  padding: 0 10px;
+
+  h5 {
+    margin: 0 0 10px 0;
+    font-size: 17px;
+
+  }
+}
+
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  p {
+    margin: 0;
+  }
+}

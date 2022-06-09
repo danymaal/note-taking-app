@@ -1,0 +1,17 @@
+.remove {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+
+  h4 {
+    font-size: 13px;
+    text-align: center;
+  }
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}

@@ -3,9 +3,14 @@
   align-items: center;
   justify-content: space-around;
   gap: 150px;
+  height: 65px;
+  border-bottom: 1px solid #f4f4f4;
+
+  h5 {
+    font-size: 17px;
+  }
 
   button {
-
     background: #FFFFFF;
     border: none;
     padding: 8px;
@@ -15,8 +20,10 @@
       border-radius: 10px;
       transition: 0.3s ease-out;
     }
+
   }
 
-  border-bottom: 1px solid #f4f4f4;
-
+  img {
+    display: none;
+  }
 }
